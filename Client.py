@@ -11,14 +11,14 @@ sock.connect(server_address)
 
 try:
     
-    message = 'This is the message.  It will be repeated.'
+    message = 'You have completed the handshake.'
     print (sys.stderr, 'sending "%s"' % message)
-    sock.sendall(message)
+    sock.sendall(str.encode(message))
 
     amount_received = 0
     amount_expected = len(message)
     while amount_received < amount_expected:
-        data = sock.recv(16)
+        data = sock.recv(32)
         amount_received += len(data)
         print (sys.stderr, 'received "%s"' % data)
 
