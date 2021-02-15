@@ -5,4 +5,4 @@
 
 # It now connects to different clients on different ports. Sends a message to notify confirmation of handshake.
 # Currently, it is missing a decode line for each file to get rid of the b' for a bytes object. Once added, project should be officially finished.
-# Across computer access should require changing IP instead of using localhost.
+# Across computer access should require changing IP instead of using localhost and also allowing ports through inbound and outbound firewall.
