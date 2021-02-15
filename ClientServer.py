@@ -17,7 +17,7 @@ while True:
         print ('client connected:', client_address)
         while True:
             data = connection.recv(1024)
-            print ('received "%s"' % data)
+            print ('received "%s"' % data.decode())
             if data:
                 connection.sendall(data)
             else:

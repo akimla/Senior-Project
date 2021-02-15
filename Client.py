@@ -20,7 +20,7 @@ try:
     while amount_received < amount_expected:
         data = sock.recv(1024)
         amount_received += len(data)
-        print ('received "%s"' % data)
+        print ('received "%s"' % data.decode())
 
 finally:
     sock.close()
