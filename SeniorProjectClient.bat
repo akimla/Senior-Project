@@ -1,2 +1,2 @@
-"C:\Users\Syn\AppData\Local\Programs\Python\Python38-32\python.exe" "C:\Users\Syn\Desktop\Desktop clutter\Senior Project\Client.py"
+"C:\Users\akiml\AppData\Local\Programs\Python\Python39\python.exe" "C:\Users\akiml\OneDrive\Desktop\Senior Project\Client.py"
 pause
